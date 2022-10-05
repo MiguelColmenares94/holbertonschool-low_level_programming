@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- *This function prints a text string to the output followed by a new line
+ * main - prints a string of characters
  *
- *and end with the value 0
+ * Description: Prints a string of characters with the command puts and adds a new line
  *
+ * Return: always return 0
  */
 
 int main(void)
