@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * This function prints a text string followed by a new line
- * and return the value 0 when finished
+ * main - print a string of characters
+ *
+ * Description: Print characters with printf function adding a new line
+ *
+ * Return: Always return 0
  */
 
 int main (void)
