@@ -3,7 +3,8 @@
 /**
  * main - print the alphabet
  *
- * Description: Print the alphabet in lower and uppercase followed by a new line
+ * Description: Print the alphabet in lower and uppercase
+ * followed by a new line
  * Return: Always return 0
  */
 
