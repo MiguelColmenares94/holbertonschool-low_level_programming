@@ -3,7 +3,7 @@
 /**
  * main - prints a string of characters
  *
- * Description: Prints a string of characters with the command puts and adds a new line
+ * Description: Prints a string of characters and adds newline
  *
  * Return: always return 0
  */
