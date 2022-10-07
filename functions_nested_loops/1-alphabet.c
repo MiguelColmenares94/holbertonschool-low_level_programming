@@ -1,12 +1,24 @@
 #include "main.h"
 
 /**
- * main - Print alphabet
+ * main - print character
  *
- * Return: Always 0.
+ * Description: Print lowercase alphabet followed by a newline
+ * Return: Always return 0
  */
-int main(void)
+
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int a;
+
+	a = 97;
+
+	while(a <= 122)
+	{
+	
+		_putchar(a);
+	
+		a++;
+	}
+	_putchar('\n');
 }
