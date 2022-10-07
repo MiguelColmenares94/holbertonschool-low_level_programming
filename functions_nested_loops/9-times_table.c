@@ -18,8 +18,8 @@ void times_table(void)
 	column = 0;
 
 	while (column <= 9)
-	{
-		_putchar('0' + (file * column));
+	{	
+		_putchar((file * column));
 		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
