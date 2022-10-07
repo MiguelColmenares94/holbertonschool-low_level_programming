@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 
 /**
  * times_table - print table
@@ -25,9 +25,10 @@ void times_table(void)
 			if (result <= 9)
 			{
 				_putchar(' ');
-			else
+			} else
 				_putchar((result / 10) + '0');
-				_putchar((result % 10) + '0');
+
+			_putchar((result % 10) + '0');
 			}
 		_putchar('\n');
 	}
