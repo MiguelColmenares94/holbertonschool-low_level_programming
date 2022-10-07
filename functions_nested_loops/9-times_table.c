@@ -10,7 +10,7 @@
 void times_table(void)
 {
 	int file, column;
-	
+
 	file = 0;
 
 	while (file <= 9)
