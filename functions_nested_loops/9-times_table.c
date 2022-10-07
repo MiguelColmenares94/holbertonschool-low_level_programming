@@ -21,7 +21,8 @@ void times_table(void)
 	{
 		_putchar((file * column));
 		_putchar(',');
-		_putchar('  ');
+		_putchar(' ');
+		_putchar(' ');
 		column++;
 	}
 	_putchar('\n');
