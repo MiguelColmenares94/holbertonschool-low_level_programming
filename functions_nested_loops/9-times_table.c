@@ -1,4 +1,4 @@
-#include "main.h"
+#incude "main.h"
 
 /**
  * times_table - print table
@@ -9,23 +9,26 @@
 
 void times_table(void)
 {
-	int file, column;
+	int file, column, result;
 
-	file = 0;
-
-	while (file <= 9)
+	for (file = 0; file <= 9; file++)
 	{
-	column = 0;
+		_putchar('0');
 
-	while (column <= 9)
-	{	
-		_putchar((file * column));
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
-		column++;
-	}
-	_putchar('\n');
-	file++;
+		for (column = 1; column <= 9; column++)
+		{
+			_putchar(',');
+			_putchar(' ');
+
+			result = file * column;
+
+			if (result <= 9)
+			{
+				_putchar(' ');
+			else
+				_putchar((result / 10) + '0');
+				_putchar((result % 10) + '0');
+			}
+		_putchar('\n');
 	}
 }
