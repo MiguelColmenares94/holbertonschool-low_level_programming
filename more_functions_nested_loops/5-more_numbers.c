@@ -24,11 +24,11 @@ void more_numbers(void)
 			a++;
 		} else
 		{
-		_putchar('a / 10');
-		_putchar('a % 10');
+		_putchar(a / 10);
+		_putchar(a % 10);
 		a++;
 		}
-		_putchar('\n')
+		_putchar('\n');
 		b++;
 	}
 }
