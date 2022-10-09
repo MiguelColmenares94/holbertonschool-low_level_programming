@@ -14,7 +14,7 @@ int main(void)
 
 	a = 1;
 
-	while (a <= 100)
+	while (a <= 99)
 	{
 		if ((a % 3) == 0 && (a % 5) == 0)
 			printf("FizzBuzz ");
@@ -31,7 +31,7 @@ int main(void)
 	}
 
 
-	printf("\n");
+	printf("Buzz\n");
 
 	return (0);
 }
