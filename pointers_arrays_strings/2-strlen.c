@@ -4,8 +4,8 @@
  * _strlen - return length of a string
  * @s: string to be measured
  *
- * Description: Get parameter "s" and measure it's length
- * return: length of "s"
+ * Description: Get parameter s and measure it's length
+ * Return: length of parameter s
  */
 
 
