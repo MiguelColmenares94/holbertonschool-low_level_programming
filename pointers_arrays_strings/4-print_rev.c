@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _print_rev - return a string in reverse
+ * print_rev - return a string in reverse
  * @s: string to be reversed
  *
  * Description: Get parameter "s" and print string in reverse
@@ -9,7 +9,7 @@
  */
 
 
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 	int l, temp;
 
