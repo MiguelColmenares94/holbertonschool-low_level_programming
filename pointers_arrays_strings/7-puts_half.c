@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- *  puts_half(char *str) - print half of a string
+ *  puts_half - print half of a string
  *  @str: string to be half printed
  *
  *  Description: Get a string and print it's second half
@@ -20,9 +20,9 @@ void puts_half(char *str)
 	}
 
 	b = a / 2;
-	if (b % 2 == 1)
+	if (a % 2 == 1)
 	{
-		b = b + 2;
+		b++;
 	}
 
 	a = b;
