@@ -3,10 +3,10 @@
 /**
  * _strspn -  gets the length of a prefix substring.
  * @s: string to be checked
- * @c: prefix substring to be measured
+ * @accept: prefix substring to be measured
  *
  * Description:  gets the length of a prefix substring.
- * Return: number of bytes in the initial segment 
+ * Return: number of bytes in the initial segment
  * of s which consist only of bytes from accept
  */
 
