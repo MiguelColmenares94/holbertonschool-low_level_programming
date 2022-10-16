@@ -3,7 +3,7 @@
 
 /**
  * string_toupper - change lowercase to uppercase
- * @*: string to be change
+ * @string: string to be change
  *
  * Description: change lowercase to uppercase
  * Return: string in uppercase
