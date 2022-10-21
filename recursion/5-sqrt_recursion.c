@@ -4,7 +4,7 @@
  * _sqrt_recursion - returns the natural square root of a number
  * @n: number to be calculated
  *
- * Description: returns the natural square root of a number 
+ * Description: returns the natural square root of a number
  * Return: natural square root of n
  */
 
@@ -20,9 +20,18 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (sqrt_n(n,2));
+		return (sqrt_n(n, 2));
 	}
 }
+
+/**
+ * sqrt_n - check square number of n
+ * @n: number to check square
+ * @count: counter
+ *
+ * Description: check square number of n
+ * Return: square number of n
+ */
 
 int sqrt_n(int n, int count)
 {
