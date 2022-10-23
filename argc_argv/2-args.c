@@ -10,11 +10,11 @@
  * Return: always 0
  */
 
-int __attribute__ ((unused)) main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int a;
 
-	for (a > 1; a < argc; a++)
+	for (a = 0; a < argc; a++)
 	{
 	printf("%s\n", *(argv + a));
 	}
