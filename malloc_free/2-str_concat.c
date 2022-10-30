@@ -29,7 +29,7 @@ char *str_concat(char *s1, char *s2)
 		a[b] = *(s1 + b);
 	for (f = 0; *(s2 + f) != '\0'; f++)
 		a[b + f] = *(s2 + f);
-	a[i + f] = *(s2 + f);
-	return (c);
+	a[b + f] = *(s2 + f);
+	return (a);
 }
 
