@@ -11,6 +11,16 @@
 
 void free_grid(int **grid, int height)
 {
-	(void)height;
-	free(grid);
+	int a;
+
+	if (grid != NULL && height != 0)
+	{
+		a = 0;
+		while (a < height)
+		{
+			free(grid[a]);
+			a++;
+		}
+		free(grid);
+	}
 }
