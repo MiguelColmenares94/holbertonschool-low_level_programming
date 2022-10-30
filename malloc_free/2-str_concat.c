@@ -9,7 +9,7 @@
  * Return: NULL on failure
  */
 
-char *str_concat(char *s1, chat *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *a;
 	int st1, st2;
@@ -40,5 +40,5 @@ char *str_concat(char *s1, chat *s2)
 		*(a + (st1 + st2)) = *(s2 + st2);
 	}
 	*(a + (st1 + st2)) = *(s2 + st2);
-	return(a)
+	return (a);
 }
