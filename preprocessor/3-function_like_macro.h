@@ -1,8 +1,4 @@
 #ifndef ABS
-#define ABS(x) abs(x)
+#define ABS
+#define ABS(x) ((x) < 0 ? (-x) : (x))
 #endif /* ABS */
-
-int main(int x)
-{
-	return (ABS(x));
-}
