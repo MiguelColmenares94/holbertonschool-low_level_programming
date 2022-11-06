@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * get_op_func - selects the correct function to 
+ * get_op_func - selects the correct function to
  * perform the operation
  * @s: operator passed as argument to the program
- * 
+ *
  * Return: pointer to the function that corresponds
  * to the operator given as a parameter.
  */
