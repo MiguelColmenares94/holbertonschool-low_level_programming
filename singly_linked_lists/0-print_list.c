@@ -7,10 +7,11 @@
  * Return: total nodes of list
  */
 
-size_t print_list(const list_t *h)
+size_t print_list(const struct list_t *h)
 {
-	unsigned int nodes = 0;
-
+	unsigned int nodes;
+	
+	nodes = 0;
 	while (h != NULL)
 	{
 		if (h->str)

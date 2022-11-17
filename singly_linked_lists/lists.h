@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-size_t print_list(const list_t *h);
+size_t print_list(const struct list_t *h);
 
 typedef struct list_s
 {
