@@ -5,8 +5,6 @@
 #include <stdlib.h>
 #include <stddef.h>
 
-size_t print_list(const struct list_t *h);
-
 typedef struct list_s
 {
 	char *str;
@@ -14,4 +12,6 @@ typedef struct list_s
 	struct list_s *next;
 } list_t;
 
+
+size_t print_list(const list_t *h);
 #endif
