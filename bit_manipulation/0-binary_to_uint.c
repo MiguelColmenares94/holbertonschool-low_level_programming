@@ -9,12 +9,12 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int dec, i, res, counter;
 
-	if (!b || b[0] == NULL)
+	if (!b || b[0] == '\0')
 	{
 		return (0);
 	}
 
-	for (counter = 0; b[counter] != NULL; counter++)
+	for (counter = 0; b[counter] != '\0'; counter++)
 	{
 		if (b[counter] != '0' && b[counter] != '1')
 			return (0);
