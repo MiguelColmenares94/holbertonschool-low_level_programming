@@ -21,6 +21,8 @@ unsigned int binary_to_uint(const char *b)
 	}
 	counter = counter - 1;
 
+	res = 0;
+	dec = 0;
 	i = 0;
 	while (i <= counter)
 	{
