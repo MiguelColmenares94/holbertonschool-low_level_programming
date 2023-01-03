@@ -7,7 +7,7 @@
  * @size: size of the array with the key
  * @value: key to search for into the array
  *
- * Return: 0 if found key, -1 if key is not found.
+ * Return: value if found key, -1 if key is not found.
  */
 
 int linear_search(int *array, size_t size, int value)
