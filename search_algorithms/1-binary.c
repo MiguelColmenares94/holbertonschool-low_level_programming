@@ -19,7 +19,7 @@ int binary_search(int *array, size_t size, int value)
 		return (-1);
 	}
 
-	high = size;
+	high = (size - 1);
 	low = 0;
 	while (low != high)
 	{
